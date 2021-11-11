@@ -8,6 +8,12 @@ import Message from './components/State/Message';
 import MyMessage from './components/State/MyMessage';
 import Counter from './components/SetState/Counter';
 import MyCounter from './components/SetState/MyCounter';
+import ClassCounter from './components/Hooks/ClassCounter';
+import FunctionCounter from './components/Hooks/FunctionCounter';
+import FunctionCounterTwo from './components/Hooks/FunctionCounterTwo';
+import FunctionCounterThree from './components/Hooks/FunctionCounterThree';
+import FunctionCounterFour from './components/Hooks/FunctionCounterFour';
+import ParentContainer from './components/Props/ParentContainer';
 
 function App() {
   return (
@@ -25,9 +31,15 @@ function App() {
       <MyWelcome name="BatMan"/>
       <MyWelcome name="SpiderMan"/> */}
       {/* <Message/> */}
-      <MyMessage/>
+      {/* <MyMessage/> */}
       {/* <Counter/> */}
       {/* <MyCounter/> */}
+      {/* <ClassCounter/> */}
+      {/* <FunctionCounter/> */}
+      {/* <FunctionCounterTwo/> */}
+      {/* <FunctionCounterThree/> */}
+      {/* <FunctionCounterFour/> */}
+      <ParentContainer/>
       
       
     </div>

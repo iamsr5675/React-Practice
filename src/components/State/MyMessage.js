@@ -14,6 +14,10 @@ export class MyMessage extends Component {
             name: "Swati"
         })
     }
+
+    clickHandler() {
+        
+    }
     
     render() {
         return (
